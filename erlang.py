@@ -23,7 +23,7 @@ def service_level(m,u,e,t,tar):
 def est_agents(u,t,tar):
     m = 0
     sl = 0
-    while sl < 0.85:
+    while sl < 0.8:
         m += 1
         e = erlang(m,u)
         try:
